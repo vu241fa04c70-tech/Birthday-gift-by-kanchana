@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95" />
+      <stop offset="50%" stop-color="#2e1065" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg1)" />
+  <circle cx="400" cy="260" r="180" fill="url(#glow1)" />
+  <!-- Coffee cups cheering -->
+  <g transform="translate(320, 260) scale(1.2)">
+    <!-- Cup 1 -->
+    <path d="M 0 20 L 5 80 Q 25 100 45 80 L 50 20 Z" fill="#fbcfe8" opacity="0.9" />
+    <path d="M 45 35 Q 65 35 60 55 Q 55 70 42 65" fill="none" stroke="#fbcfe8" stroke-width="6" stroke-linecap="round" />
+    <path d="M 12 10 Q 18 0 24 10 Q 30 20 36 10" fill="none" stroke="#f472b6" stroke-width="3" opacity="0.7" />
+    
+    <!-- Cup 2 -->
+    <path d="M 70 20 L 75 80 Q 95 100 115 80 L 120 20 Z" fill="#fed7aa" opacity="0.9" />
+    <path d="M 115 35 Q 135 35 130 55 Q 125 70 112 65" fill="none" stroke="#fed7aa" stroke-width="6" stroke-linecap="round" />
+    <path d="M 82 10 Q 88 0 94 10 Q 100 20 106 10" fill="none" stroke="#fb923c" stroke-width="3" opacity="0.7" />
+    
+    <!-- Sparkles -->
+    <text x="55" y="10" font-size="24" fill="#fde047" text-anchor="middle">✨</text>
+    <text x="15" y="-10" font-size="18" fill="#f472b6" text-anchor="middle">💖</text>
+  </g>
+  <text x="400" y="470" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#fdf4ff" text-anchor="middle" letter-spacing="1">OUR FIRST CAFE HANGOUT</text>
+  <text x="400" y="510" font-family="system-ui, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">"Two cups of coffee and endless uncontrollable laughter"</text>
+</svg>

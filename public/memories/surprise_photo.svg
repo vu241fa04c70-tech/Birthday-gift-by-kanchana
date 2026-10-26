@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="surpriseBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="50%" stop-color="#be185d" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+    <radialGradient id="heartGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fdf2f8" />
+      <stop offset="60%" stop-color="#f472b6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#be185d" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#surpriseBg)" />
+  <circle cx="400" cy="270" r="180" fill="url(#heartGlow)" />
+  
+  <!-- Glowing Heart Frame -->
+  <g transform="translate(400, 240) scale(2.2)">
+    <path d="M 0 -20 A 20 20 0 0 0 -40 0 C -40 25 0 50 0 65 C 0 50 40 25 40 0 A 20 20 0 0 0 0 -20 Z" fill="#ffe4e6" stroke="#fff" stroke-width="3" filter="drop-shadow(0 0 15px rgba(255,255,255,0.8))" />
+    <text x="0" y="22" font-size="24" text-anchor="middle">👑</text>
+  </g>
+  
+  <text x="400" y="470" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">THE BRIGHTEST SMILE IN THE UNIVERSE</text>
+  <text x="400" y="510" font-family="system-ui, sans-serif" font-size="18" fill="#fbcfe8" text-anchor="middle">"Never forget how much warmth and joy you bring to everyone around you."</text>
+</svg>

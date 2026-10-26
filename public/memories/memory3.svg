@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="50%" stop-color="#3b0764" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="laser1" x1="0%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="laser2" x1="100%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)" />
+  <!-- Stage light beams -->
+  <polygon points="100,500 400,100 480,100 250,500" fill="url(#laser1)" />
+  <polygon points="700,500 400,100 320,100 550,500" fill="url(#laser2)" />
+  
+  <!-- Crowd silhouettes -->
+  <g fill="#09090b">
+    <circle cx="200" cy="480" r="30" />
+    <path d="M 160 520 Q 200 490 240 520 L 250 600 L 150 600 Z" />
+    <circle cx="340" cy="460" r="35" />
+    <!-- Cheering hands -->
+    <path d="M 330 420 L 325 380 L 335 380 L 340 420 Z" />
+    <circle cx="480" cy="470" r="32" />
+    <circle cx="620" cy="490" r="28" />
+    <rect x="0" y="520" width="800" height="80" />
+  </g>
+  <text x="400" y="240" font-size="50" text-anchor="middle">🎶 🎸 🎤</text>
+  <text x="400" y="320" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#fdf4ff" text-anchor="middle" letter-spacing="1">THAT CRAZY LIVE CONCERT</text>
+  <text x="400" y="360" font-family="system-ui, sans-serif" font-size="16" fill="#e9d5ff" text-anchor="middle">"Singing at the top of our lungs until our voices gave out"</text>
+</svg>
